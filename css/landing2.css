@@ -1,0 +1,229 @@
+*{
+    margin: 0% ;
+    padding: 0%;
+}
+
+.log{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: italic;
+    padding: 5px 30px;
+    height: 50px;
+    align-items: center;
+    border-bottom: solid 1px black;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40pc;
+    align-items: center;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.anchor a{
+    text-decoration: none;
+    color: black;
+}
+.one{
+   
+    color:white;
+    outline: none;
+    text-transform: uppercase;
+    border: none;
+    width: 50px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: blue;
+    justify-content: center;
+}
+.two{
+    color:white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+.log2{
+    font-size: large;
+    font-style: italic;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 50px 120px ;
+    align-items: center;
+}
+.hero h1{
+    font-size: 40px;
+    color: rgb(0, 60, 255);
+    
+}
+.hero h2{
+    font-size: 20px;
+    width: 470px;
+    font-weight: 200;
+    line-height: normal;
+    padding:  20px 0px;
+}
+.hero button{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.692);
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.work{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.work h1{
+    padding: 10px;
+    text-align: center;
+}
+.work p{
+    width: 280px;
+    padding: 10px;
+    text-align: center;
+}
+.work2{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.challenges{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 110px;
+    background-size: 50px;
+    background-color: rgba(0, 102, 255, 0.788);
+    margin: 100px;
+    border-radius: 10px 10px 0  0  ;
+    color: white;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 150px;
+    margin-top: -12%;
+    /* width: 100%; */
+     
+}
+.first{
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 1px white;
+    
+} 
+.first h1, h3, h4{
+    margin: 20px;
+    background-color: white;
+}
+.html{
+    color:rgba(0, 255, 242, 0.644);
+}
+.css{
+    color: rgba(0, 47, 255, 0.555);
+}
+.js{
+    color: rgba(255, 0, 0, 0.486);
+}
+.green{
+    color: lawngreen;
+    padding: 36px;
+    font-size: 15px;
+}
+.THREE{
+    color: yellow;
+    font-size: 12PX;
+    padding: 20PX;
+}
+
+.frontend{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 40px 80px;
+}
+
+.frontend p{
+    color: rgba(0, 255, 242, 0.527); 
+    /* padding-right: 70px;  */
+}
+.frontend h1{
+    font-size: 20px;
+    /* padding-left: 70px; */
+}
+.fitter{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 80px;
+    justify-content: space-between;
+    border-bottom: solid 1px black;
+    /* padding-left: 80px; */
+    /* padding-right: 80px; */
+} 
+.fitter h1{
+    font-size: 14px;
+    padding:10px 0;
+}
+
+.stay{
+    color: rgba(73, 21, 218, 0.74);
+    font-size: 30px ;
+    /* padding-left: 50px; */
+}
+button{
+    color: #f2f2f2;
+    background-color: red;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+}
+input{
+    padding: 8px;
+}
+.list{
+    list-style-type: none;
+    align-items: baseline;
+}
+.policy{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    justify-content: space-between;
+    margin: 15px;
+    
+}
+.front{
+    font-size: 15px;
+    /* width: 20px; */
+    padding-left: 50px;
+}
+.terms{
+    font-size: 12px;
+    width: 400px;  
+    padding-right: 50px;
+}
